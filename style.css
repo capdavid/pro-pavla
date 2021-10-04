@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 200px auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 250px;
+}
+
+.card-icon {
+  margin-right: 1rem;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.card-text span {
+  margin-bottom: 1rem;
+}
+
+.bold {
+  font-weight: 600;
+}
