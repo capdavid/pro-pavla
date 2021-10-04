@@ -12,11 +12,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
   display: flex;
   width: 250px;
+  margin: 1rem 0;
 }
 
 .card-icon {
@@ -36,4 +38,10 @@
 
 .bold {
   font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .cards {
+    flex-direction: column;
+  }
 }
